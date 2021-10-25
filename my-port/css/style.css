@@ -1,0 +1,137 @@
+body{
+    font-family:Monospace;
+    
+}
+/* title-style */
+#title{
+    background-color:rgb(27, 27, 27);
+}
+
+h1{
+    color: #f0f8ff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Akronim', cursive;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* navbar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: montserrat;
+}
+/* contact-button */
+.Contact-me{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+   width: 60%;
+   margin-left: 30%;
+   border-radius: 100%;
+   
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+    word-wrap: break-word;
+}
+h2{
+    text-align: center;
+    font-family: montserrat bold;
+    
+}
+/* about */
+#about{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+/* tools */
+.skills{
+    color: #f0f8ff;
+    margin:3% 10% 3% 0;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+#skills{
+    color: #f0f8ff;
+    margin-bottom: 5%;
+
+}
+.icon1{
+    color:dimgray;
+    margin-bottom: 1rem;
+
+}
+.icon1:hover{
+    color:#f0f8ff;
+}
+
+/* icon2 */
+.icon2{
+    color:dimgray;
+    margin-bottom: 1rem;
+}
+.icon2:hover{
+    color:#f0f8ff;
+}
+/* contact-me form */
+.contact{
+    
+    margin: auto;
+    margin-top: 5%;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+.footer {
+    color: white;
+    
+}
+.icon2{
+     margin-left: 18%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .title-image{
+        width: 50%;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        text-align: center;
+        padding: 0rem;
+   }
+   .icon{
+         display:flex;
+         width:20%;
+         margin:auto;
+   }
+   .skills{
+          display:flex;
+          width:50%;
+         margin-top:10%;
+       }
+   h3{
+     font-size:1em;
+     margin-left:5%;
+  }
+}
